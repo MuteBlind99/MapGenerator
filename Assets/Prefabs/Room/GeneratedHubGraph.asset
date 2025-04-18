@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8400baee4cafd34091c865089a167b2, type: 3}
-  m_Name: GeneratedLevelGraph
+  m_Name: GeneratedHubGraph
   m_EditorClassIdentifier: 
   Connections:
   - {fileID: 7960145130117818835}
@@ -103,6 +103,7 @@ MonoBehaviour:
   - {fileID: 3896654592748087691, guid: bcec849b3515b9a47808aab11ae0264e, type: 3}
   - {fileID: 6432602071022243356, guid: c5be648ad6cbe2c49bee6479325b0e4b, type: 3}
   - {fileID: 4513987796894164284, guid: c7a20908f4b6e2b4d89fccbf8dc8c324, type: 3}
+  - {fileID: 7701067025097816510, guid: c88b6da8c82ce77498464f0f86ed4d24, type: 3}
   DefaultRoomTemplateSets: []
   Rooms:
   - {fileID: -7479641005680202265}
@@ -110,8 +111,8 @@ MonoBehaviour:
   - {fileID: -3370031995388002612}
   - {fileID: -355940176620390859}
   EditorData:
-    PanOffset: {x: 342.79837, y: 130.24403}
-    Zoom: 0.41957456
+    PanOffset: {x: 409.3414, y: 205.39703}
+    Zoom: 0.27253002
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
 --- !u!114 &2086889149882104901
