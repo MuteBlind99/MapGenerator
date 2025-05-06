@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8074dc491ddc34f4e83332d9eae76980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {x: 94.35499, y: 161.62347}
+  Position: {x: 94.35499, y: 163.88696}
   Name: Spawn
   IndividualRoomTemplates:
-  - {fileID: 7517511124157780513, guid: 7829460b23e9dfe4e8f0eb1cd23164b2, type: 3}
+  - {fileID: 7701067025097816510, guid: c88b6da8c82ce77498464f0f86ed4d24, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-6539165660868399564
 MonoBehaviour:
@@ -111,8 +111,8 @@ MonoBehaviour:
   - {fileID: -3370031995388002612}
   - {fileID: -355940176620390859}
   EditorData:
-    PanOffset: {x: 409.3414, y: 205.39703}
-    Zoom: 0.27253002
+    PanOffset: {x: 58.29604, y: 191.54971}
+    Zoom: 0.8467627
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
 --- !u!114 &2086889149882104901
