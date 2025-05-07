@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8074dc491ddc34f4e83332d9eae76980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {x: 1242.4873, y: 626.9619}
+  Position: {x: 1240.8864, y: 626.9619}
   Name: Room
   IndividualRoomTemplates: []
   RoomTemplateSets: []
@@ -202,7 +202,6 @@ MonoBehaviour:
   - {fileID: 278077670540134548, guid: 6c50d33fef318eb4fadcd8956a170b34, type: 3}
   CorridorRoomTemplateSets: []
   DefaultIndividualRoomTemplates:
-  - {fileID: 7517511124157780513, guid: b7a3394aab47da14b9bff4499e3ba886, type: 3}
   - {fileID: 3227662584657690048, guid: e8763a24a1a95804abff8bf776bfae88, type: 3}
   - {fileID: 7517511124157780513, guid: 37d95751e82efba49bce3fa6ba799076, type: 3}
   - {fileID: 3227662584657690048, guid: 64f1de4b4fc92f3409855660e3ec43ac, type: 3}
@@ -223,8 +222,8 @@ MonoBehaviour:
   - {fileID: -6095473305502193264}
   - {fileID: -4726040828430991242}
   EditorData:
-    PanOffset: {x: -1013.0282, y: -196.0592}
-    Zoom: 0.417304
+    PanOffset: {x: -1046.4613, y: -277.06116}
+    Zoom: 0.49972048
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
 --- !u!114 &249291538529082673
@@ -432,9 +431,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8074dc491ddc34f4e83332d9eae76980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {x: 1089.1107, y: 628.7802}
+  Position: {x: 1089.1107, y: 632.3699}
   Name: Room
-  IndividualRoomTemplates: []
+  IndividualRoomTemplates:
+  - {fileID: 7517511124157780513, guid: b7a3394aab47da14b9bff4499e3ba886, type: 3}
   RoomTemplateSets: []
 --- !u!114 &8610838855674945357
 MonoBehaviour:

@@ -4,6 +4,7 @@ using System.IO;
 using MapGeneration.Core.MapDescriptions;
 using MapGeneration.Utils;
 using Newtonsoft.Json;
+using ProceduralLevelGenerator.Runtime.Generators.DungeonGenerator.PipelineTasks;
 using ProceduralLevelGenerator.Unity.Attributes;
 using ProceduralLevelGenerator.Unity.Generators.Common;
 using ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph;

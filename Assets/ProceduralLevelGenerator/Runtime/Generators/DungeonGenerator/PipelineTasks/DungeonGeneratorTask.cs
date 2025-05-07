@@ -11,7 +11,7 @@ using ProceduralLevelGenerator.Unity.Generators.DungeonGenerator.Configs;
 using ProceduralLevelGenerator.Unity.Pipeline;
 using UnityEngine;
 
-namespace ProceduralLevelGenerator.Unity.Generators.DungeonGenerator.PipelineTasks
+namespace ProceduralLevelGenerator.Runtime.Generators.DungeonGenerator.PipelineTasks
 {
     /// <summary>
     /// The actual generator logic that call the .NET generator.
