@@ -9,7 +9,7 @@ namespace New_Folder.Bomb
         private float timerSetBomb = 0f;
 
 
-        [SerializeField] private BombScript bomb;
+        [SerializeField] private GameObject bomb;
 
         void Start()
         {

@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7555831260699516843}
   - component: {fileID: 587144276093420236}
+  - component: {fileID: 4987171874415229310}
+  - component: {fileID: 5866445270848990847}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -87,6 +89,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &4987171874415229310
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873003391734942775}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.00000011920929, y: 0}
+  m_Radius: 0.49999997
+--- !u!114 &5866445270848990847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873003391734942775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8388ad88fd4b2d46af6276f9f10ec2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8635570944169254090
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,8 +214,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2121705163
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -4909677335491246486, guid: a8f460f14201678408b44f1b3917a77f, type: 3}
   m_Color: {r: 0.9924528, g: 0.9793449, b: 0.9793449, a: 1}
@@ -193,6 +243,7 @@ MonoBehaviour:
   _animatorBomb: {fileID: 1007295744384023913}
   IsActiveted: 0
   IsDead: 0
+  _explotionCollider: {fileID: 4987171874415229310}
 --- !u!95 &1007295744384023913
 Animator:
   serializedVersion: 7

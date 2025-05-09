@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownDropBomb: 1.5
-  bomb: {fileID: 5452608404375439974, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
+  bomb: {fileID: 8635570944169254090, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
 --- !u!114 &3647564411919154476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldownDropBomb: 1
   target: {fileID: 9127751071012365777, guid: 10f8318226a5e81468da6bdbf208b8d4, type: 3}
-  bomb: {fileID: 5452608404375439974, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
+  bomb: {fileID: 8635570944169254090, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
 --- !u!114 &1165150415821235495
 MonoBehaviour:
   m_ObjectHideFlags: 0

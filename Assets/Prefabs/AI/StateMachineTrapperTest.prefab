@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownDropBomb: 1.5
-  bomb: {fileID: 5452608404375439974, guid: 980831c0d401f8a4dbf836db6b408146, type: 3}
+  bomb: {fileID: 8635570944169254090, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
 --- !u!114 &3647564411919154476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldownDropBomb: 1
   target: {fileID: 0}
-  bomb: {fileID: 5452608404375439974, guid: 980831c0d401f8a4dbf836db6b408146, type: 3}
+  bomb: {fileID: 8635570944169254090, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
 --- !u!114 &1165150415821235495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +84,7 @@ MonoBehaviour:
   target: {fileID: 0}
   bombInitiate: {fileID: 4606225974309662341}
   bombLaunch: {fileID: 3647564411919154476}
+  animatorBomb: {fileID: 1007295744384023913, guid: dc70ed2185154b54fb777952c47fa883, type: 3}
   distanceToTarget: 0
   stoppingDistanceThreshold: 5
   chasingDistance: 4

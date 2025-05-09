@@ -6,7 +6,7 @@ public class BombInitiate : MonoBehaviour
     private float timerSetBomb = 0f;
 
 
-    [SerializeField] private BombScript bomb;
+    [SerializeField] private GameObject bomb;
 
     public void DropBomb()
     {

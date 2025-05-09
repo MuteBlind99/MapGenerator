@@ -9,7 +9,8 @@ public class BombScript : MonoBehaviour
     [SerializeField] private Animator _animatorBomb;
     public bool IsActiveted=false;
     public bool IsDead=false;
-    private GameObject _player;
+    //private GameObject _player;
+    [SerializeField] private CircleCollider2D _explotionCollider;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,6 +27,11 @@ public class BombScript : MonoBehaviour
         }
     }
 
+    private void ActiveExplode()
+    {
+        _explotionCollider.enabled = true;
+    }
+    
     private void OnExplosion()
     {
         //_player.life-=1;
@@ -40,7 +46,7 @@ public class BombScript : MonoBehaviour
             IsActiveted = true;
             
             //other.gameObject.GetComponent<PlayerHealth>().Die();
-            _player = other.gameObject.GetComponent<GameObject>();
+            //_player = other.gameObject.GetComponent<GameObject>();
         }
         else if(other.CompareTag("Enemy"))
         {
