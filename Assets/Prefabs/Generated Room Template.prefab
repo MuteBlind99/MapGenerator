@@ -581,7 +581,7 @@ MonoBehaviour:
   groundMap: {fileID: 3457090482812451524}
   wallMap: {fileID: 6633886764298073594}
   tiles:
-  - {fileID: 11400000, guid: 00700b684a808be47af76eeb162be3e1, type: 2}
+  - {fileID: 11400000, guid: 24bd7a632267a914db95cf134fce498e, type: 2}
   groundRuleTile: {fileID: 11400000, guid: 24bd7a632267a914db95cf134fce498e, type: 2}
   wallsRuleTile: {fileID: 11400000, guid: 0bae8cd6900a03d4881267b4befdb75b, type: 2}
   startPosition: {x: 0, y: 0, z: 0}
